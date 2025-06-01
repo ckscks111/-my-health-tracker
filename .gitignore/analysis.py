@@ -1,6 +1,6 @@
 import pandas as pd
 
-df=pd.read_csv('../health_data.csv')
+df=pd.read_csv('health_data.csv')
 print("\n🚪Loaded CSV data:")
 print(df)
 

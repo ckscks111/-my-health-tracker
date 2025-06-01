@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 plt.rcParams['font.family'] = 'Arial'
 
-df= pd.read_csv('../health_data.csv')
+df= pd.read_csv('health_data.csv')
 days= df['Day']
 sleep = df['Sleep_Hours']
 exercise = df['Exercise_Minutes']
